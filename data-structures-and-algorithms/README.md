@@ -56,3 +56,37 @@ Since it is in the middle of the array, 18 is in the scope of the average case.
 ## 2- Big-O Notation
 
 O (n*(logn))
+
+# Binary Search Tree Project
+
+### [7,5,1,8,3,6,0,9,4,2] 
+
+## 1- Root
+
+1. 5-7
+
+2. 1-5-7
+
+3. 1-5-7
+       8
+
+4. 1-5-7
+   3   8
+
+5. 1-5-7
+   3 6 8
+
+6. 0-  1-  5-  7
+       3   6   8
+
+7. 0-  1-  5-  7
+       3   6   8
+               9
+
+8. 0-  1-  5-  7
+       3   6   8
+       4       9
+
+9. 0-  1-  5-  7
+       3   6   8
+      2 4      9
